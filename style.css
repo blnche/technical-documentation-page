@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    display: flex;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+.nav-link{
+    text-decoration: none;
+    padding: 1rem;
+}
+#main-doc{
+    margin: 3rem;
+}
+.main-section{
+    margin: 1rem;
+}
+header{
+    padding: 1rem;
+    font-size: 3em;
+}
+div{
+    padding: 1rem;
+    font-size: 1.25em;
+}
+p{
+    text-indent: 1.25em;
+}
+ul{
+    padding: 0.75rem;
+    list-style: circle;
+}
+li{
+
+}
+code{
+
+}
