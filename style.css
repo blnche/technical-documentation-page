@@ -55,9 +55,10 @@ li{
     padding: 0.5em;
 }
 code{
-    /* background-color: grey;
-    border-radius: 1.75rem; not how you style code tag*/
-    /* margin: 2rem 5rem; */
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 0.3em;
 }
 @media screen and (max-width:700px) {
     body{
