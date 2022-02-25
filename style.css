@@ -1,25 +1,37 @@
 body{
     margin: 0;
+    background-color: white;
     display: flex;
 }
 #navbar{
+    height: 100%;
+    background-color: rgba(248, 230, 230);
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    border-radius: 1.75rem;
+    border-radius: 0rem 1.75rem 1.75rem 0rem ;
+    position: fixed;
+    width: 20rem;
+    border-right: 3px solid rgba(192, 192, 192, 0.733);
 }
 .nav-link{
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem 0rem 1rem 0rem;
+    border-top: 3px solid rgba(192, 192, 192, 0.733);;
+    width: 100%;
+    text-indent: 0.5rem;
 }
 #main-doc{
-    margin: 3rem;
+    margin: 1.5rem;
+    margin-left: 25rem;
 }
 .main-section{
+    background-color: rgba(248, 230, 230);
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border-radius: 1.75rem;
-    margin: 1rem;
+    margin: 2.5rem 1rem;
     padding: 1rem;
 }
 header{
@@ -29,6 +41,7 @@ header{
 div{
     padding: 1rem;
     font-size: 1.25em;
+    margin: 1rem 2rem;
 }
 p{
     text-indent: 1.25em;
@@ -44,4 +57,34 @@ li{
 code{
     /* background-color: grey;
     border-radius: 1.75rem; not how you style code tag*/
+    /* margin: 2rem 5rem; */
+}
+@media screen and (max-width:700px) {
+    body{
+        flex-direction: column;
+    }
+    #navbar{
+        position: relative;
+        width: auto;
+        margin: 0.5rem;
+        border-radius: 0.5rem;
+    }
+    #main-doc{
+        margin: 0.5rem;
+    }
+    .main-section{
+        border-radius: 0.5rem;
+        margin: 1.5rem 0.25rem;
+        padding: 0rem;
+    }
+    header{
+        font-size: 2rem;
+        text-align: center;
+    }
+    div{
+        margin: 0.25rem;
+    }
+    ul{
+        margin: 0.25rem;
+    }
 }
